@@ -17,6 +17,7 @@ import java.util.logging.Logger
 /**
  * Author: liyimin
  * Time: 2019/4/25 0025 15:52
+ * github：https://github.com/JeremyLeeL
  */
 class BottomView @JvmOverloads constructor(
     context: Context,
