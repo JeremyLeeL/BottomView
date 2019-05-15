@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".MainActivity"
+        android:background="#000000"
+>
+    <androidx.viewpager.widget.ViewPager android:id="@+id/viewPager"
+                                         android:layout_width="match_parent"
+                                         android:layout_height="match_parent"/>
+    <LinearLayout android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:orientation="horizontal"
+                  app:layout_constraintBottom_toBottomOf="parent"
+    >
+        <!--<Button android:id="@+id/button1"
+                android:layout_width="0dp"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+        />
+        <Button android:id="@+id/button2"
+                android:layout_width="0dp"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+        />
+        <Button android:id="@+id/button3"
+                android:layout_width="0dp"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+        />-->
+    </LinearLayout>
+
+    <com.ymlee.bottomview.BottomView android:id="@+id/bottomView"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_marginBottom="50dp"
+        android:background="@drawable/bottom_view_bg"
+        app:layout_constraintBottom_toBottomOf="parent"
+    />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
